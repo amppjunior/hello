@@ -1,0 +1,27 @@
+h1,th {
+    color: blue;
+    text-align: center;
+}
+#tit, #hder{
+    color: blueviolet;
+}
+div {
+ width: 200px;   
+ height: 400px;
+ align-items: center;
+}
+table{
+    border: solid black 1px;
+    border-collapse: collapse;
+}
+th,td{
+    padding: 20px;
+    border: solid black 1px;
+    text-align: center;
+}
+th:hover, #hder:hover{
+    color: aqua;
+}
+@media(min-width: 600px) {
+    body{background-color: blue;}
+}

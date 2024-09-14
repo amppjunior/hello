@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="teste.css">
+        <title>
+            Página com recurso de wrapping!
+        </title>
+        <style>
+            #container {
+                display: flex;
+                flex-wrap: wrap;
+            }
+            #container > div {
+                background-color: springgreen;
+                font-size: 20;
+                padding: 20px;
+                margin: 20px;
+                width: 100px;
+            }
+            .row > div {
+                background-color: gold;
+                border: solid black 1px;
+                padding: 20px;
+                 }
+        </style>
+    </head>
+    <body>
+        <div class="alert alert-light" role="alert">
+            <h4 class="alert-heading">Well done!</h4>
+            <p>Aww yeah</p>
+            <hr>
+            <p class="mb-0">Whenever you need</p>
+          </div>
+        <div class="row">
+            <div class="col-lg-3 col-sm-6">1. Esse texto está dentro de um container teste!</div>
+            <div class="col-lg-3 col-sm-6">2. Esse texto está dentro de um container!</div>
+            <div class="col-lg-3 col-sm-6">3. Esse texto está dentro de um container!</div>
+            <div class="col-lg-3 col-sm-6">4. Esse texto está dentro de um container!</div>
+        </div>
+        <div>
+            <ol>
+                <li>Texto 1</li>
+                <li>Texto 2</li>
+                <li>Texto 3</li>
+            </ol>
+            <ul>
+                <li>Text 1</li>
+                <li>Text 2</li>
+                <li>Text 3</li>
+            </ul>
+        </div>
+    </body>
+</html>
